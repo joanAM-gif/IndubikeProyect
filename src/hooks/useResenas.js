@@ -43,7 +43,7 @@ export function useResenas() {
   async function loginGoogle() {
     await supabase.auth.signInWithOAuth({
       provider: 'google',
-      options:  { redirectTo: window.location.href },
+      options:  { redirectTo:'http://localhost:5173',  },
     });
   }
 
