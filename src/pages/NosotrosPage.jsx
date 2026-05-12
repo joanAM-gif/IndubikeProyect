@@ -14,7 +14,7 @@ export default function NosotrosPage() {
           <div className="badge2-label">Satisfacción</div>
         </div>
         <div className="hero-visual">
-          <img src="/img/.jpeg" alt="Equipo InduBiker" />
+          <img src="public/img/somos.jpeg" alt="Equipo InduBiker" />
         </div>
       </div>
 

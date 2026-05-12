@@ -43,7 +43,7 @@ export default function HomePage() {
         <div className="hero-bg-shape" />
         <div className="hero-orange-bar" />
         <div className="hero-visual">
-          <img src="/img/logo.PNG" alt="InduBiker Logo" />
+          <img src="public/img/logo.PNG" alt="InduBiker Logo" />
         </div>
         <div className="hero-badge">
           <div className="badge-text">🏍️ ESPECIALISTAS EN EL CUIDADO</div>
