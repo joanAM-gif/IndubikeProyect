@@ -7,9 +7,9 @@ const SLIDES = [
     { src: 'public/img/gall-guantes.jpeg',  alt: 'Foto 3', caption: 'AlpinStars' },
   ],
   [
-    { src: 'public/img/gall-cliente2.jpeg', alt: 'Foto 4', caption: 'Cliente satisfecho' },
-    { src: 'public/img/gall-casaca.jpeg',   alt: 'Foto 5', caption: 'Casaca Dainese' },
-    { src: 'public/img/gall-casco.jpeg',    alt: 'Foto 6', caption: 'Casco LS2 Carbon' },
+    { src: '/img/gall-cliente2.jpeg', alt: 'Foto 4', caption: 'Cliente satisfecho' },
+    { src: '/img/gall-casaca.jpeg',   alt: 'Foto 5', caption: 'Casaca Dainese' },
+    { src: '/img/gall-casco.jpeg',    alt: 'Foto 6', caption: 'Casco LS2 Carbon' },
   ],
 ];
 
