@@ -2,9 +2,9 @@ import GallerySlider from '../components/GallerySlider';
 
 const SLIDES = [
   [
-    { src: 'public/img/gall-casco2.jpeg',   alt: 'Foto 1', caption: 'Team Kawasaki' },
-    { src: 'public/img/gall-cliente.jpeg',  alt: 'Foto 2', caption: 'Cliente feliz' },
-    { src: 'public/img/gall-guantes.jpeg',  alt: 'Foto 3', caption: 'AlpinStars' },
+    { src: '/img/gall-casco2.jpeg',   alt: 'Foto 1', caption: 'Team Kawasaki' },
+    { src: '/img/gall-cliente.jpeg',  alt: 'Foto 2', caption: 'Cliente feliz' },
+    { src: '/img/gall-guantes.jpeg',  alt: 'Foto 3', caption: 'AlpinStars' },
   ],
   [
     { src: '/img/gall-cliente2.jpeg', alt: 'Foto 4', caption: 'Cliente satisfecho' },
