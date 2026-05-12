@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Fix para el ícono por defecto de Leaflet con bundlers (Vite/Webpack)
 import markerIcon2x   from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon     from 'leaflet/dist/images/marker-icon.png';
 import markerShadow   from 'leaflet/dist/images/marker-shadow.png';
@@ -21,7 +20,7 @@ const MAPS_URL = 'https://maps.app.goo.gl/j282TUzr3FQhKDZZ9';
 
 export default function MapaUbicanos() {
   useEffect(() => {
-    // Evitar doble inicialización en hot-reload de Vite
+    
     const container = document.getElementById('indubiker-map');
     if (!container || container._leaflet_id) return;
 
@@ -53,7 +52,7 @@ export default function MapaUbicanos() {
       .addTo(map)
       .bindPopup(`
         <div class="map-popup-title">InduBiker</div>
-        <div class="map-popup-sub">Limpieza profesional de equipo moto</div>
+        <div class="map-popup-sub">Tu mejor aliado para la limpieza de tu indumentaria</div>
         <a href="${MAPS_URL}" target="_blank"
            style="display:inline-block;margin-top:8px;color:#FF6B00;
                   font-size:0.8rem;font-weight:700;letter-spacing:1px;">
